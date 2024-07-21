@@ -1,0 +1,129 @@
+*{
+    background-size: cover;
+    cursor: default;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+html{
+    background: linear-gradient(rgb(2, 168, 168), rgb(0, 68, 68))no-repeat fixed;
+    overflow:auto;
+    background-attachment: fixed;
+    background-size: cover;
+}
+#nav{
+    background: rgba(0, 0, 0, 0.5);
+    color: white;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    border: 2px solid white;
+    border-radius: 10px;
+    height: 100px;
+    margin: 0px;
+    background-size: 100%;
+}
+
+.logo{
+    margin: 20px -20px 10px 15px;
+    height: fit-content;
+    color: rgb(255, 255, 255);
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-style: oblique;
+    font-size: 2rem;
+    letter-spacing: 5px;
+    text-decoration: line-through red;
+}
+.search {
+    padding: 10px 10px 0px 10px;
+    margin: 15px -5rem 0px 10px;
+    width: 25rem;
+    display: flex;
+    height: auto;
+}
+.search input{
+    width: 150vb;
+    height: 45px;
+    border-radius:15px;
+    border: 1px solid white;
+    font-size: 20px;
+    font-weight: bold;
+    padding-left: 15px;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    padding-top: 0px;
+    transition: 0.5ms;
+}
+.search input:hover{
+    box-shadow: 1px 1px 10px 0   white;
+}
+ul{
+    display: flex;
+}
+ul li{
+    padding-left: 50px;
+    padding-right: 20px;
+    list-style-type: none;
+    justify-content: space-evenly;
+    margin: 20px 15px 8px 0px;
+}
+ul li a{
+    text-decoration: none;
+    color: antiquewhite;
+    border: 2px solid white;
+    padding: 7px 15px 7px 15px;
+    margin: 12px 5px 8px -4rem;
+    border-radius: 20px;
+    transition: o.5ms;
+    align-content: space-evenly;
+    font-weight: bold;
+}
+ul li a:hover{
+    color: black;
+    background-color: white;
+    cursor: pointer;
+    box-shadow: 1px 1px 50px 0 white;
+}
+
+/*-----------product--------*/
+#product{
+    background: rgba(0, 0, 0, 0.5);
+    margin-top: 20px;
+    padding: 10px;
+    border-radius: 10px;
+    
+}
+.prod-img{
+    border: 2px solid white;
+    display: flex;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    padding: 15px;
+}
+.prod-img a img{
+    width: 100vb;
+    height: auto;
+    border-radius: 10px;
+    padding-left: 1px;
+    margin: 50px 15px 15px 15px;
+    cursor: pointer;
+}
+.prod-img a img:hover{
+    box-shadow: 5px 5px 10px 0 white;
+}
+.prod-img a .left-shadow:hover{
+    box-shadow: -5px 5px 10px 0 white;
+}
+.prod-img a img,h1{
+    display: flex;
+}
+.content h1{
+    color: white;
+    justify-content: center;
+    text-decoration:underline red;
+
+}
+.content h2{
+    color: white;
+    text-align: center;
+    padding: 5px;
+    margin-top: 2rem;
+}
