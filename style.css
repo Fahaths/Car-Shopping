@@ -20,6 +20,7 @@ html{
     height: 100px;
     margin: 0px;
     background-size: 100%;
+    width: 100%;
 }
 
 .logo{
@@ -90,6 +91,7 @@ ul li a:hover{
     margin-top: 20px;
     padding: 10px;
     border-radius: 10px;
+    width: 100%;
     
 }
 .prod-img{
