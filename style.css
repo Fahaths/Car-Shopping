@@ -51,6 +51,7 @@ html{
     color: white;
     padding-top: 0px;
     transition: 0.5ms;
+    position: relative;
 }
 .search input:hover{
     box-shadow: 1px 1px 10px 0   white;
